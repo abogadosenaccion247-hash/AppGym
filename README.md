@@ -13,3 +13,10 @@ App SwiftUI (iOS 17+):
 3. Elige un iPhone (simulador o físico) y pulsa **Run**. En iPhone físico: Signing → tu Apple ID.
 
 Los gráficos corporales se dibujan en código. Para fotos/GIFs reales de cada ejercicio, agrégalos a un Asset Catalog y muéstralos en `ExerciseDetailView`.
+
+## Versión Android (Jetpack Compose)
+Carpeta `android/`. Mismas pantallas y datos que iOS (Hoy, Semana, detalle con temporizador, Alimentación).
+
+1. Abre la carpeta `android/` en **Android Studio** (Koala o superior, JDK 17).
+2. Espera el *Gradle Sync* y pulsa **Run** en un emulador o en tu celular (depuración USB).
+3. Para publicar: *Build → Generate Signed Bundle / APK*.
